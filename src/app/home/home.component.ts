@@ -13,8 +13,8 @@ import { createHttpObservable } from '../common/util';
 export class HomeComponent implements OnInit {
 
 
-    public beginnerCourses$: Observable<Course[]>;
-    public advancedCourses$: Observable<Course[]>;
+    public beginnerCourses$: Observable<any>;
+    public advancedCourses$: Observable<any>;
     constructor() {
 
     }
